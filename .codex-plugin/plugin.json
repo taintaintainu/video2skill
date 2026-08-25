@@ -1,0 +1,45 @@
+{
+  "name": "video2skill",
+  "version": "0.2.2",
+  "description": "Compile tutorial videos into provenance-preserving semantic GUI trajectories and reusable Codex computer-use skills.",
+  "author": {
+    "name": "taintaintainu",
+    "url": "https://github.com/taintaintainu"
+  },
+  "homepage": "https://github.com/taintaintainu/video2skill#readme",
+  "repository": "https://github.com/taintaintainu/video2skill",
+  "license": "MIT",
+  "keywords": [
+    "computer-use",
+    "video",
+    "semantic-trajectory",
+    "gui-agent",
+    "seed",
+    "gemini",
+    "openai"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Video2Skill",
+    "shortDescription": "Turn tutorial videos into reusable GUI skills.",
+    "longDescription": "Provider-neutral video annotation, immutable-ID merge validation, and safe replay contracts for Seed, Gemini, OpenAI/Codex API, local loopback models, and custom OpenAI-compatible APIs.",
+    "developerName": "taintaintainu",
+    "category": "Developer Tools",
+    "websiteURL": "https://github.com/taintaintainu/video2skill",
+    "privacyPolicyURL": "https://github.com/taintaintainu/video2skill/blob/main/PRIVACY.md",
+    "capabilities": [
+      "Local and public video ingestion",
+      "Multi-provider semantic trajectory extraction",
+      "Deterministic immutable-ID merge validation",
+      "Compact provenance and optional evidence frames",
+      "Safe computer-use replay verification contracts"
+    ],
+    "brandColor": "#6750A4",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": [
+      "Turn this tutorial video into a reusable computer-use skill.",
+      "Extract a complete semantic GUI trajectory from this video.",
+      "Compare this tutorial across supported inference providers."
+    ]
+  }
+}

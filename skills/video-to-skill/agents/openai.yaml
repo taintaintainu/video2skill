@@ -1,0 +1,7 @@
+interface:
+  display_name: "Video to Skill"
+  short_description: "Compile tutorial videos into reusable GUI skills"
+  brand_color: "#6750A4"
+  default_prompt: "Use $video-to-skill to convert this tutorial video into a reusable computer-use skill."
+policy:
+  allow_implicit_invocation: true
