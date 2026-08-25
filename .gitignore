@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.env
+.env.*
+video2skill-output/
+outputs/
+benchmarks/
+*.mp4
+*.webm
+*.mov
+*.mkv
+*.zip

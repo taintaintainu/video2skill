@@ -1,0 +1,31 @@
+{
+  "runs": [
+    {
+      "label": "seed-turbo",
+      "provider": "seed",
+      "model": "doubao-seed-2-1-turbo-260628",
+      "api_key_env": "ARK_API_KEY"
+    },
+    {
+      "label": "gemini",
+      "provider": "gemini",
+      "model": "gemini-2.5-pro",
+      "api_key_env": "GEMINI_API_KEY"
+    },
+    {
+      "label": "codex",
+      "provider": "codex",
+      "model": "gpt-5.6-sol",
+      "api_key_env": "OPENAI_API_KEY",
+      "frame_fps": 0.5,
+      "max_frames": 60
+    },
+    {
+      "label": "local-loopback",
+      "provider": "local",
+      "model": "local-vision-model",
+      "base_url": "http://127.0.0.1:9000/v1",
+      "api_mode": "chat-completions"
+    }
+  ]
+}

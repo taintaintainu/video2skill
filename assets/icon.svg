@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Video2Skill</title>
+  <desc id="desc">A play symbol flowing into connected semantic steps</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c4dff"/>
+      <stop offset="1" stop-color="#4527a0"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <path d="M120 135v170l144-85z" fill="#fff"/>
+  <path d="M260 220h55c30 0 34 49 64 49h36" fill="none" stroke="#d1c4e9" stroke-width="26" stroke-linecap="round"/>
+  <circle cx="315" cy="220" r="24" fill="#fff"/>
+  <circle cx="379" cy="269" r="24" fill="#fff"/>
+  <circle cx="415" cy="269" r="24" fill="#fff"/>
+  <path d="M120 355h292" stroke="#b39ddb" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="168" cy="355" r="30" fill="#fff"/>
+  <circle cx="270" cy="355" r="30" fill="#fff"/>
+  <circle cx="372" cy="355" r="30" fill="#fff"/>
+</svg>
