@@ -16,7 +16,9 @@ jobs:
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
       - name: Scan plugin
-        uses: hashgraph-online/ai-plugin-scanner-action@692ef575e571374be93908035d172f9925b04ad8
+        # v1.2.536, pinned to plugin-scanner 2.2.125 as required by the
+        # awesome-codex-plugins contribution guide.
+        uses: hashgraph-online/ai-plugin-scanner-action@4d3669481def205d3f995ed9d927d55e60dcc9ba
         with:
           plugin_dir: "."
           mode: scan

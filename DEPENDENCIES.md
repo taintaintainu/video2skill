@@ -2,6 +2,8 @@
 
 Video2Skill has no third-party Python package dependencies.
 
+`requirements-lock.txt` is intentionally package-free and records this zero-dependency runtime state for release scanners.
+
 Runtime requirements:
 
 - Python 3.11 or newer

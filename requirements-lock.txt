@@ -1,0 +1,2 @@
+# Video2Skill has no third-party Python package dependencies.
+# Runtime code uses only the Python standard library.
